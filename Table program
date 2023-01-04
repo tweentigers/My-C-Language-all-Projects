@@ -1,0 +1,32 @@
+//Table programme
+#include<stdio.h>
+
+int main() {
+    int a;
+    printf("enter & input table value");
+    scanf("%d",&a);
+    int b;
+    b=a;
+    int c=a+a;
+    int d=a+a+a;
+    int e=a+a+a+a;
+    int f=a+a+a+a+a;
+    int g=a+a+a+a+a+a;
+    int h=a+a+a+a+a+a+a;
+    int i=a+a+a+a+a+a+a+a;
+    int j=a+a+a+a+a+a+a+a+a;
+    int k=a+a+a+a+a+a+a+a+a+a;
+    
+    printf("your table is\n");
+    
+    printf("%d\n",b);
+    printf("%d\n",c);
+    printf("%d\n",d);
+    printf("%d\n",e);
+    printf("%d\n",f);
+    printf("%d\n",g);
+    printf("%d\n",h);
+    printf("%d\n",i);
+    printf("%d\n",j);
+    printf("%d\n",k);
+    }
