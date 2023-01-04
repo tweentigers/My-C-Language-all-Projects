@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+main() {
+    int base;
+    int power;
+    int ans;
+    
+    printf("input base value\n");
+    scanf("%d",&base);
+    
+    printf("input power value\n");
+    
+    
+    scanf("%d",&power);
+    ans= pow(base,power);
+    
+    printf("%d",ans);
+    
+    
+
+}
+    
